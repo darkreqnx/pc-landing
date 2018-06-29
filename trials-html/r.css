@@ -1,0 +1,142 @@
+.navbar-collapse {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-top: -50px;
+    }
+}
+
+.body {
+  background-color: white;
+}
+
+/* navbar */
+.navbar-brand>img {
+        -o-object-fit: contain; /* Opera Support */
+          object-fit: contain; /* Resize down to fit container */
+
+        max-height: 100%; /* resize DOWN to height of container which is set to 50px */
+        height: 100%; /* resize UP to fit*/
+        max-width: 100%;
+        width: auto; /* resize based on height */
+        margin: 0 auto;
+}
+/* Default Navbar Brand Settings. Use this to resize or move your logo up and down */
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  margin-top: 10px; /* you can adjust this if your logo needs to be moved up or down but simply adjusting the padding is easier */
+  height: 80px; /* this should be equal to computed height of .navbar-nav>li>a */
+}
+/* .container-nv .navbar-brand { */
+  /* height: 80px; */
+/* } */
+.navbar-default {
+  background-color: transparent !important;
+	border-color: transparent;
+	background-image: none;
+	box-shadow: none;
+
+  font-size: 20px;
+  color: #fff;
+
+  height: 100px;
+}
+.navbar-toggle {
+  margin: 10px 0;
+  background: #36C;
+  color: #FFF;
+}
+.nv .nav >li >a {
+    /* padding-top: 40px; */
+    /* padding-bottom: 40px; */
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* padding-left: 20px; */
+    /* padding-right: 40px; */
+}
+
+/* jumbotron */
+#j1 {
+  padding-top: 170px;
+  background-color: white;
+}
+#j2 {
+  padding: 150px;
+  background-color: #B3B3B3;
+}
+#j3 {
+  padding: 150px;
+  background-color: white;
+}
+
+/* hero */
+.hero {
+	background-color: #white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+}
+.light {
+	font-weight: bold;
+	color: #717070;
+}
+.tagline {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#hero {
+	background-color: #77c9d4;
+	padding-top: 240px;
+	padding-bottom: 150px;
+}
+/* footer */
+
+footer {
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
+
+/* post-footer */
+
+#postFooter {
+  background-color: black;
+  font-size: 11px;
+  padding: 20px;
+}
+
+/* carousel */
+/* #landingCarousel .item { */
+  /* height: 600px; */
+  /* width: 1550px; */
+  /* padding: 0px 0px; */
+/* } */
+/* #slide1 { */
+  /* background: url('../images/landing.jpg'); */
+/* } */
+/* #slide2 { */
+  /* background: url('../images/landing.jpg'); */
+/* } */
+/* #slide3 { */
+  /* background: url('../images/landing.jpg'); */
+/* } */
