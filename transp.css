@@ -1,62 +1,16 @@
-body, html {
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.8em;
-  color: #666;
-}
-
-.pimg1, .pimg2, .pimg3 {
-  postion: relative;
-  opacity: 0.70;
+.pimg {
+  position: relative;
+  opacity: 0.9;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /*
-    fixed=parallax;
-    scroll=normal;
-  */
   background-attachment: fixed;
+  background-image: url('assets/images/p2.jpg');
+  min-height: 600px;
 }
-
-.pimg1 {
-  background-image: url('assets/images/t1.jpeg');
-  min-height: 100%;
+.lead {
+  text-align: justify;
 }
-
-.pimg2 {
-  background-image: url('assets/images/t2.jpeg');
-  min-height: 400px;
-}
-
-.pimg3 {
-  background-image: url('assets/images/t3.jpeg');
-  min-height: 400px;
-}
-
-.text2 {
-  /* position: absolute; */
-  /* padding-top: 100px; */
-  vertical-align: middle;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-
-.text1 {
-  /* position: absolute; */
-  padding-top: 300px;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+#information {
+  background-color: ;
 }
