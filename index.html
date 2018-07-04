@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Why Hyderabad</title>
+  <title>Hyderabad Pharma City</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,20 +19,23 @@
       padding: 0px 10px;
       padding-top: 10px;
       padding-bottom: 0px;
+      margin-bottom: -10px;
     }
     .hero {
       padding: 16px;
     }
     .sticky {
-      position: fixed;
+      z-index: 99;
+      position: sticky;
       top: 0;
       width: 100%;
     }
 
     .sticky + .hero {
-      padding-top: 102px;
+      padding-top: 1000px;
     }
     .navbar-inverse {
+      background-color: #000;
       border-radius: 0;
       padding-top: 15px;
       padding-bottom: 15px;
@@ -43,16 +46,18 @@
       font-size: 40px;
     }
     #hero1 {
+      margin-top: 0;
       padding: 0px 10px;
     }
     #j1 {
       background-image: url('assets/images/p1.jpg');
       background-attachment: fixed;
+      background-repeat: no-repeat;
       opacity: 0.9;
-      min-height: 450px;
+      min-height: 620px;
       border-radius: 0.1px;
       color: white;
-      padding-top: 150px;
+      padding-top: 300px;
     }
     #about {
       padding: 100px;
@@ -64,6 +69,50 @@
       padding: 10px 10px;
       border-radius: 0;
       background-color: white;
+      padding-bottom: 100px;
+    }
+    #hero3 {
+      padding: 0px 10px;
+    }
+    #j3 {
+      background-color: #e8e7e8;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      opacity: 0.9;
+      min-height: 400px;
+      border-radius: 0.1px;
+      color: #000;
+      padding-top: 100px;
+      margin-bottom: 15px;
+    }
+    #hero4 {
+      padding: 0px 10px;
+    }
+    #j4 {
+      background-color: #000;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      opacity: 0.9;
+      min-height: 500px;
+      border-radius: 0.1px;
+      color: white;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    #j4 .glyphicon {
+      /* border: 1px solid #FFFFFF; */
+      border: 3px solid #e8175d;
+      border-radius: 50%;
+      display: inline-block;
+      font-size: 45px;
+      height: 120px;
+      line-height: 120px;
+      text-align: center;
+      vertical-align: middle;
+      width: 120px;
+    }
+    #j4 p {
+      font-size: 18px;
     }
     #form-container {
       /* background-color: gray; */
@@ -106,6 +155,7 @@
       padding: 0px 10px;
     }
     #prefoot {
+      /* background-color: rgb(65, 71, 78); */
       background-color: #2a394a;
       background-attachment: fixed;
       opacity: 0.9;
@@ -129,7 +179,7 @@
       padding-bottom: 0px;
     }
     #foot {
-      background-color: #0e1318;
+      /* background-color: #0e1318; */
       color: white;
       padding: 10px;
       border-radius: 0;
@@ -168,13 +218,13 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="/whyhyd">WHY HYDERABAD</a></li>
-          <li><a href="#contact">HISTORY</a></li>
-          <li><a href="#contact">INSTITUTIONS</a></li>
-          <li><a href="#contact">INCENTIVES</a></li>
-          <li><a href="#contact">SETTING UP</a></li>
-          <li><a href="#contact">FAQ</a></li>
-          <li><a href="#contact">CONTACT US</a></li>
+          <li><a href="/whyhyd"><strong>WHY HYDERABAD</strong></a></li>
+          <li><a href="#contact"><strong>HISTORY</strong></a></li>
+          <li><a href="#contact"><strong>INSTITUTIONS</strong></a></li>
+          <li><a href="#contact"><strong>INCENTIVES</strong></a></li>
+          <li><a href="#contact"><strong>SETTING UP</strong></a></li>
+          <li><a href="#contact"><strong>FAQ</strong></a></li>
+          <li><a href="#contact"><strong>CONTACT US</strong></a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -223,6 +273,45 @@
     <p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eos minima iusto atque cupiditate, maiores tempora voluptas inventore delectus dicta numquam rerum aperiam obcaecati ipsum pariatur voluptates. Reiciendis aliquam provident est aspernatur possimus maiores doloribus a laudantium accusantium neque, at vel eveniet sed voluptas nihil fuga amet reprehenderit molestiae, ipsum aliquid perspiciatis. Ut nam pariatur adipisci tempore consequuntur nesciunt quisquam quasi, quibusdam culpa vero natus soluta laudantium vel id deserunt laboriosam ratione atque cupiditate ullam officia. Quis possimus dolor recusandae, nihil id odit eos ullam incidunt aliquam, nam aliquid nisi voluptates reprehenderit voluptatem dolorem ex doloribus qui. Illo, quo deleniti.</p>
 
   </div>
+  </div>
+</div>
+
+<div class="hero" id="hero3">
+  <div class="jumbotron" id="j3">
+    <div class="container">
+      <h1>Lorem ipsum dolor.</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</h3>
+    </div>
+  </div>
+</div>
+
+<div class="hero" id="hero4">
+  <div class="jumbotron" id="j4">
+    <div class="container">
+      <h1>Lorem Ipsum</h1> <br><hr><br><br>
+      <div class="row text-center">
+        <div class="col-sm-3 col-xs-6">
+          <i class="glyphicon glyphicon-cloud"> </i>
+          <h4>Service 1</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <i class="glyphicon glyphicon-leaf"> </i>
+          <h4>Service 2</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <i class="glyphicon glyphicon-phone-alt"> </i>
+          <h4>Service 3</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <i class="glyphicon glyphicon-bullhorn"> </i>
+          <h4>Service 4</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -376,19 +465,20 @@
 <script src="../assets/js/jquery.min.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
 <!-- sticky navbar -->
-<!-- <script> -->
-  <!-- window.onscroll = function() {myFunction()}; -->
+<script>
+  window.onscroll = function() {myFunction()};
 
-  <!-- var header = document.getElementById("head-nav"); -->
-  <!-- var sticky = header.offsetTop; -->
+  var header = document.getElementById("head-nav");
+  var sticky = header.offsetTop;
 
-  <!-- function myFunction() { -->
-    <!-- if (window.pageYOffset > sticky) { -->
-      <!-- header.classList.add("sticky"); -->
-    <!-- } else { -->
-      <!-- header.classList.remove("sticky"); -->
-    <!-- } -->
-  <!-- } -->
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+
 </script>
 
 

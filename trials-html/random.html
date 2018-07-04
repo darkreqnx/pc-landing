@@ -1,134 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>random</title>
+  <title>Hyderabad Pharma City</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="r.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="assets/css/custom1.css"> -->
+  <!-- <link rel="stylesheet" href="transp.css"> -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+  <style>
+    body {
+          font-family: 'Cabin', serif;
+          /* font-size: 48px; */
+        }
+    .header {
+      padding: 0px 10px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+    }
+    .hero {
+      padding: 16px;
+    }
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .sticky + .hero {
+      padding-top: 102px;
+    }
+    .navbar-inverse {
+      border-radius: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .navbar-brand {
+      font-size: 40px;
+    }
+    #hero1 {
+      padding: 0px 10px;
+    }
+    #j1 {
+      background-image: url('assets/images/p1.jpg');
+      background-attachment: fixed;
+      opacity: 0.9;
+      min-height: 600px;
+      border-radius: 0.1px;
+      color: white;
+      padding-top: 300px;
+    }
+    #about {
+      padding: 100px;
+    }
+    .filler {
+      font-size: 22px;
+    }
+    #text-filler {
+      padding: 10px 10px;
+      border-radius: 0;
+      background-color: white;
+    }
+    #form-container {
+      /* background-color: gray; */
+    }
+    .form-title {
+      text-align: center;
+      font-size: 45px;
+      padding-top: 150px;
+      padding-bottom: 30px;
+    }
+    .form-control {
+      font-size: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .descript, .checkbox {
+      padding-top: 10px;
+      font-size: 18px;
+      text-align: justify;
+    }
+    #button {
+      padding-top: 30px;
+      text-align: center;
+      padding-bottom: 100px;
+    }
+    .btn-default {
+      padding: 15px 40px;
+      font-size: 20px;
+      border-radius: 0;
+    }
+
+    #hero2 {
+      font-size: 15px;
+      padding: 50px 10px;;
+      color: white;
+      background-color: #2a394a;
+    }
+    /* pre-footer */
+    #prefoot-cont {
+      padding: 0px 10px;
+    }
+    #prefoot {
+      background-color: #2a394a;
+      background-attachment: fixed;
+      opacity: 0.9;
+      font-size: 15px;
+      /* min-height: 600px; */
+      border-radius: 0.1px;
+      color: white;
+    }
+    .foot-heading {
+      font-size: 17px;s
+    }
+    #prefoot ul {
+      list-style-type: none;
+    }
+    #prefoot p {
+      font-size: 15px;
+    }
+    /* footer */
+    #foot-cont {
+      padding: 0px 10px;
+      padding-bottom: 0px;
+    }
+    #foot {
+      background-color: #0e1318;
+      color: white;
+      padding: 10px;
+      border-radius: 0;
+    }
+    #foot p {
+      font-size: 15px;
+    }
+    #foot .glyphicon {
+      color: #333333;
+      font-size: 60px;
+    }
+    #foot .glyphicon:hover {
+      color: #306d9f;
+    }
+  </style>
 </head>
 
-
 <body>
+  <div class="header" id="head-nav">
+    <!-- navbar -->
+    <nav class="my-nav navbar navbar-inverse">
+      <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <strong>HPC</strong>
+        </a>
+      </div>
 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/whyhyd">WHY HYDERABAD</a></li>
+          <li><a href="#contact">HISTORY</a></li>
+          <li><a href="#contact">INSTITUTIONS</a></li>
+          <li><a href="#contact">INCENTIVES</a></li>
+          <li><a href="#contact">SETTING UP</a></li>
+          <li><a href="#contact">FAQ</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+</div> <!-- /header -->
+
+<div class="hero" id="hero1">
+  <div class="jumbotron" id="j1">
+    <div class="container">
+      <h1>Brand HYDERABAD</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</h3>
+    </div>
+  </div>
+</div>
+
+<!-- second section - About -->
+<div id="about" class="pad-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <!-- <img src="images/logo.png" alt="" /> -->
+      </div>
+      <div class="col-sm-8 text-center">
+        <!-- <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p> -->
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae porro, in voluptate corporis dignissimos non provident neque ipsa, rerum! Architecto, ipsum modi maxime quod quae asperiores, fuga nihil porro pariatur.</h3>
+      </div>
+    </div>
+
+    <br><br>
+  </div>
+</div>
+<!-- /second section -->
 <div class="container-fluid">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Logo/Brand</a>
+  <div class="jumbotron" id="text-filler">
+    <div class="container">
+
+    <!-- <h1 class="fill-head">Lorem ipsum dolor sit.</h1><br> -->
+    <p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde deserunt a labore suscipit reprehenderit eos exercitationem, nesciunt magnam nostrum quam cupiditate corporis illo enim necessitatibus consequuntur in nulla dolor magni.</p>
+    <ul>
+      <li class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, saepe!
+      <li class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatibus iste quam illo suscipit ullam velit in similique sit a?</li>
+      <li class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, suscipit.</li>
+      <li class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, culpa.</li>
+    </ul>
+    <br>
+    <p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eos minima iusto atque cupiditate, maiores tempora voluptas inventore delectus dicta numquam rerum aperiam obcaecati ipsum pariatur voluptates. Reiciendis aliquam provident est aspernatur possimus maiores doloribus a laudantium accusantium neque, at vel eveniet sed voluptas nihil fuga amet reprehenderit molestiae, ipsum aliquid perspiciatis. Ut nam pariatur adipisci tempore consequuntur nesciunt quisquam quasi, quibusdam culpa vero natus soluta laudantium vel id deserunt laboriosam ratione atque cupiditate ullam officia. Quis possimus dolor recusandae, nihil id odit eos ullam incidunt aliquam, nam aliquid nisi voluptates reprehenderit voluptatem dolorem ex doloribus qui. Illo, quo deleniti.</p>
+
   </div>
-  <div id="navbar" class="navbar-collapse collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="#about">WHY HYDERABAD</a></li>
-      <li><a href="#contact">INSTITUTIONS</a></li>
-      <li><a href="#contact">INCENTIVES</a></li>
-      <li><a href="#contact">SETTING UP</a></li>
-      <li><a href="#contact">CONTACT US</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <!-- <li><a href="#">Link1</a></li> -->
-      <li><a href="#">News & Updates</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div><!--/.nav-collapse -->
+  </div>
 </div>
 
-<section class="hero" id="hero">
-  <h2 class="hero_header">Header <span class="light">One</span></h2>
-  <p class="tagline">Tagline</p>
-</section>
+<!-- fourth section - Information -->
+<div id="information" class="pad-section">
+  <div class="container">
+    <!-- <h1>Lorem ipsum dolor.</h1> -->
+    <br>
+    <br>
 
-<section class="hero" id="hero1">
-  <div class="jumbotron" id="j1">
-    <div class="container">
-      <h1>Panel 1</h1>
-      <h3>tagline.</h3>
-    </div>
-  </div>
-</section>
-<section class="hero" id="hero2">
-  <div class="jumbotron" id="j2">
-    <div class="container">
-      <h1>Panel 2</h1>
-      <h3>tagline.</h3>
-    </div>
-  </div>
-</section>
-<section class="hero" id="hero3">
-  <!-- <div class="container">
-    <h2 class="hero_header">Header <span class="light">One</span></h2>
-    <p class="tagline">Tagline</p>
-  </div> -->
-  <div class="jumbotron" id="j1">
-    <div class="container">
-      <h1>Panel 1</h1>
-      <h3>tagline.</h3>
-    </div>
-  </div>
-</section>
-<!-- </div> -->
-<!-- <div class="jumbotron"> -->
-  <!-- <h1>Pane 2</h1> -->
-  <!-- <h3>tagline.</h3> -->
-<!-- </div> -->
-<!-- </div> -->
-
-<footer>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-2">
-      <h5>Quick Links</h5>
-      <ul class="unstyled">
-        <li> Link 1
-        <li> Link 2
-        <li> Link 3
-        <li> Link 4
-        <li> Link 5
-      </ul>
-    </div>
-    <div class="col-sm-2">
-      <h5>Setup Guide</h5>
-      <ul class="unstyled">
-        <li> Link 1
-        <li> Link 2
-        <li> Link 3
-        <li> Link 4
-        <li> Link 5
-      </ul>
-    </div>
-
-
-    <div class="col-sm-2">
-      <h5>Useful Links</h5>
-      <ul class="unstyled">
-        <li> Link 1
-        <li> Link 2
-        <li> Link 3
-        <li> Link 4
-        <li> Link 5
-      </ul>
-    </div>
-    <div class="col-sm-6">
-      <h5>Head Office</h5>
-      <p>Invest Hong Kong<br>
-25/F Fairmont House, 8 Cotton Tree Drive, Central, Hong Kong<br>
-+852 3107 1000 |  +852 3107 9007
-enq@InvestHK.gov.hk<br>
-Opening Hours - 8:45 a.m. - 12:30 p.m. | 1:30 p.m. - 6:00 p.m.<br>
-Monday to Friday (closed on Saturdays, Sundays, and other public holidays)
-</p>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <!-- <div class="panel-heading"> -->
+            <!-- <h2 class="panel-title">Additional information</h2> -->
+          <!-- </div> -->
+          <div class="panel-body lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur voluptate quisquam placeat perspiciatis temporibus totam repellendus, dolorum debitis libero amet! Cumque expedita et perferendis quaerat dolor quod temporibus dolores.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor alias facilis adipisci molestiae maxime quod minus dolore asperiores dignissimos doloremque, mollitia beatae cupiditate labore sunt assumenda, nam recusandae expedita quo.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <!-- <div class="panel-heading"> -->
+            <!-- <h2 class="panel-title">Additional information</h2> -->
+          <!-- </div> -->
+          <div class="panel-body lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur voluptate quisquam placeat perspiciatis temporibus totam repellendus, dolorum debitis libero amet! Cumque expedita et perferendis quaerat dolor quod temporibus dolores.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor alias facilis adipisci molestiae maxime quod minus dolore asperiores dignissimos doloremque, mollitia beatae cupiditate labore sunt assumenda, nam recusandae expedita quo.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <!-- <div class="panel-heading"> -->
+            <!-- <h2 class="panel-title">Additional information</h2> -->
+          <!-- </div> -->
+          <div class="panel-body lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, consectetur voluptate quisquam placeat perspiciatis temporibus totam repellendus, dolorum debitis libero amet! Cumque expedita et perferendis quaerat dolor quod temporibus dolores.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor alias facilis adipisci molestiae maxime quod minus dolore asperiores dignissimos doloremque, mollitia beatae cupiditate labore sunt assumenda, nam recusandae expedita quo.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-</footer>
+<!-- /fourth section -->
 
+
+<!-- newsletter form -->
+
+<div class="container-fluid" id="form-container">
+  <div class="container">
+    <p class="form-title">Subscribe for Updates</p>
+    <form class="form-horizontal" action="/action_page.php">
+      <div class="form-group">
+        <div class="col-sm-6">
+          <input type="email" class="form-control" id="email" placeholder="Full Name" name="email">
+        </div>
+        <div class="col-sm-6">
+          <input type="password" class="form-control" id="pwd" placeholder="Industry" name="pwd">
+        </div><br><br><br>
+
+        <div class="col-sm-6">
+          <input type="email" class="form-control" id="email" placeholder="Email ID" name="email">
+        </div>
+        <div class="col-sm-6">
+          <input type="password" class="form-control" id="pwd" placeholder="Contact Number" name="pwd">
+        </div>
+      </div>
+      <p class="descript">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsum temporibus possimus expedita modi quas consequatur sunt ipsa, illum, autem. Nulla, rerum, delectus. Porro ex animi repudiandae non aperiam, sunt pariatur eligendi optio blanditiis. Obcaecati nihil at consequatur temporibus mollitia non quam modi maxime. Dolor distinctio vero magni tempore vitae animi, quidem unde quo, autem recusandae voluptates nulla ut consequatur.
+      </p>
+          <div class="checkbox">
+            <label><input type="checkbox" name="remember"> I have read and agreed to the Privacy Policy</label>
+            <br>
+            <label><input type="checkbox" name="remember"> I agree to my data being stored and used to receive news and promotional materials</label>
+          </div>
+      <div class="form-group" id="button">
+          <button type="submit" class="btn btn-default">Stay Up to Date</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- footers and js plugins -->
+<div class="container-fluid" id="prefoot-cont">
+  <div class="jumbotron" id="prefoot">
+    <div class="container">
+      <!-- <h1>Brand HYDERABAD</h1> -->
+      <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</h3> -->
+      <div class="row">
+        <div class="col-sm-2">
+          <h5 class="foot-heading">Quick Links</h5>
+          <ul class="unstyled">
+            <li> Link 1
+            <li> Link 2
+            <li> Link 3
+            <li> Link 4
+            <li> Link 5
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5 class="foot-heading">Setup Guide</h5>
+          <ul class="unstyled">
+            <li> Link 1
+            <li> Link 2
+            <li> Link 3
+            <li> Link 4
+            <li> Link 5
+          </ul>
+        </div>
+
+
+        <div class="col-sm-2">
+          <h5 class="foot-heading">Useful Links</h5>
+          <ul class="unstyled">
+            <li> Link 1
+            <li> Link 2
+            <li> Link 3
+            <li> Link 4
+            <li> Link 5
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <h5 class="foot-heading">Head Office</h5>
+          <p>Lorem ipsum dolor.<br>
+    25/F Fairmont House, 8 Cotton Tree Drive, Central, Hong Kong<br>
+    +852 xxxx xxxx | +852 xxxx xxxx |  lorem@loremipsum.gov.lorem<br>
+    Opening Hours - 8:45 a.m. - 12:30 p.m. | 1:30 p.m. - 6:00 p.m.<br>
+    Monday to Friday (closed on Saturdays, Sundays, and other public holidays)
+    </p>
+        </div>
+      </div><br><br>
+      <p class="text-center">Copyright &copy; [random]company_name 20xx</p>
+
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<!-- <div class="container-fluid" id="foot-cont"> -->
+  <!-- <div class="jumbotron" id="foot"> -->
+    <!-- <div class="container"> -->
+      <!-- <p class="text-left">Copyright &copy; [random]company_name 20xx</p> -->
+    <!-- </div> -->
+    <!-- </div> -->
+<!-- </div> -->
+
+<!-- /footer -->
 <script src="../assets/js/jquery.min.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
+<!-- sticky navbar -->
+<!-- <script> -->
+  <!-- window.onscroll = function() {myFunction()}; -->
+
+  <!-- var header = document.getElementById("head-nav"); -->
+  <!-- var sticky = header.offsetTop; -->
+
+  <!-- function myFunction() { -->
+    <!-- if (window.pageYOffset > sticky) { -->
+      <!-- header.classList.add("sticky"); -->
+    <!-- } else { -->
+      <!-- header.classList.remove("sticky"); -->
+    <!-- } -->
+  <!-- } -->
+</script>
+
 
 </body>
 </html>
