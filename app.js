@@ -32,7 +32,27 @@ app.get('/', function(req, res){
 app.get('/', function(req, res){
 	res.render('index');
 });
-
+app.get('/whyhyd', function(req, res){
+	res.render('whyhyd');
+});
+app.get('/history', function(req, res){
+	res.render('history');
+});
+app.get('/institutions', function(req, res){
+	res.render('institutions');
+});
+app.get('/incentives', function(req, res){
+	res.render('incentives');
+});
+app.get('/setup', function(req, res){
+	res.render('setup');
+});
+app.get('/faq', function(req, res){
+	res.render('faq');
+});
+app.get('/contact', function(req, res){
+	res.render('contact');
+});
 /*
 app.get('/page/:object', function(req, res){
 	var obj1 = {prop1: val1/string, prop2: val2/string};

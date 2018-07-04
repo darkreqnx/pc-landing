@@ -1,0 +1,133 @@
+body {
+      font-family: 'Cabin', serif;
+      /* font-size: 48px; */
+    }
+.header {
+  padding: 0px 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.hero {
+  padding: 16px;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .hero {
+  padding-top: 102px;
+}
+.navbar-inverse {
+  border-radius: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-brand {
+  font-size: 40px;
+}
+#hero1 {
+  padding: 0px 10px;
+}
+#j1 {
+  background-image: url('../images/p1.jpg');
+  background-attachment: fixed;
+  opacity: 0.9;
+  min-height: 450px;
+  border-radius: 0.1px;
+  color: white;
+  padding-top: 150px;
+}
+#about {
+  padding: 100px;
+}
+.filler {
+  font-size: 22px;
+}
+#text-filler {
+  padding: 10px 10px;
+  border-radius: 0;
+  background-color: white;
+}
+#form-container {
+  /* background-color: gray; */
+}
+.form-title {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+.form-control {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.descript, .checkbox {
+  padding-top: 10px;
+  font-size: 18px;
+  text-align: justify;
+}
+#button {
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.btn-default {
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 0;
+}
+
+#hero2 {
+  font-size: 15px;
+  padding: 50px 10px;;
+  color: white;
+  background-color: #2a394a;
+}
+/* pre-footer */
+#prefoot-cont {
+  padding: 0px 10px;
+}
+#prefoot {
+  background-color: #2a394a;
+  background-attachment: fixed;
+  opacity: 0.9;
+  font-size: 15px;
+  /* min-height: 600px; */
+  border-radius: 0.1px;
+  color: white;
+}
+.foot-heading {
+  font-size: 17px;s
+}
+#prefoot ul {
+  list-style-type: none;
+}
+#prefoot p {
+  font-size: 15px;
+}
+/* footer */
+#foot-cont {
+  padding: 0px 10px;
+  padding-bottom: 0px;
+}
+#foot {
+  background-color: #0e1318;
+  color: white;
+  padding: 10px;
+  border-radius: 0;
+}
+#foot p {
+  font-size: 15px;
+}
+#foot .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+#foot .glyphicon:hover {
+  color: #306d9f;
+}

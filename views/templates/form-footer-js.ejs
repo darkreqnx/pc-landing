@@ -1,0 +1,118 @@
+<!-- newsletter form -->
+
+<div class="container-fluid" id="form-container">
+  <div class="container">
+    <p class="form-title">Subscribe for Updates</p>
+    <form class="form-horizontal" action="/action_page.php">
+      <div class="form-group">
+        <div class="col-sm-6">
+          <input type="email" class="form-control" id="email" placeholder="Full Name" name="email">
+        </div>
+        <div class="col-sm-6">
+          <input type="password" class="form-control" id="pwd" placeholder="Industry" name="pwd">
+        </div><br><br><br>
+
+        <div class="col-sm-6">
+          <input type="email" class="form-control" id="email" placeholder="Email ID" name="email">
+        </div>
+        <div class="col-sm-6">
+          <input type="password" class="form-control" id="pwd" placeholder="Contact Number" name="pwd">
+        </div>
+      </div>
+      <p class="descript">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ipsum temporibus possimus expedita modi quas consequatur sunt ipsa, illum, autem. Nulla, rerum, delectus. Porro ex animi repudiandae non aperiam, sunt pariatur eligendi optio blanditiis. Obcaecati nihil at consequatur temporibus mollitia non quam modi maxime. Dolor distinctio vero magni tempore vitae animi, quidem unde quo, autem recusandae voluptates nulla ut consequatur.
+      </p>
+          <div class="checkbox">
+            <label><input type="checkbox" name="remember"> I have read and agreed to the Privacy Policy</label>
+            <br>
+            <label><input type="checkbox" name="remember"> I agree to my data being stored and used to receive news and promotional materials</label>
+          </div>
+      <div class="form-group" id="button">
+          <button type="submit" class="btn btn-default">Stay Up to Date</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- footers and js plugins -->
+<div class="container-fluid" id="prefoot-cont">
+  <div class="jumbotron" id="prefoot">
+    <div class="container">
+      <!-- <h1>Brand HYDERABAD</h1> -->
+      <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</h3> -->
+      <div class="row">
+        <div class="col-sm-2">
+          <h5 class="foot-heading">Quick Links</h5>
+          <ul class="unstyled">
+            <li> Link 1
+            <li> Link 2
+            <li> Link 3
+            <li> Link 4
+            <li> Link 5
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5 class="foot-heading">Setup Guide</h5>
+          <ul class="unstyled">
+            <li> Link 1
+            <li> Link 2
+            <li> Link 3
+            <li> Link 4
+            <li> Link 5
+          </ul>
+        </div>
+
+
+        <div class="col-sm-2">
+          <h5 class="foot-heading">Useful Links</h5>
+          <ul class="unstyled">
+            <li> Link 1
+            <li> Link 2
+            <li> Link 3
+            <li> Link 4
+            <li> Link 5
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <h5 class="foot-heading">Head Office</h5>
+          <p>Lorem ipsum dolor.<br>
+    25/F Fairmont House, 8 Cotton Tree Drive, Central, Hong Kong<br>
+    +852 xxxx xxxx | +852 xxxx xxxx |  lorem@loremipsum.gov.lorem<br>
+    Opening Hours - 8:45 a.m. - 12:30 p.m. | 1:30 p.m. - 6:00 p.m.<br>
+    Monday to Friday (closed on Saturdays, Sundays, and other public holidays)
+    </p>
+        </div>
+      </div><br><br>
+      <p class="text-center">Copyright &copy; [random]company_name 20xx</p>
+
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<!-- <div class="container-fluid" id="foot-cont"> -->
+  <!-- <div class="jumbotron" id="foot"> -->
+    <!-- <div class="container"> -->
+      <!-- <p class="text-left">Copyright &copy; [random]company_name 20xx</p> -->
+    <!-- </div> -->
+    <!-- </div> -->
+<!-- </div> -->
+
+<!-- /footer -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<!-- sticky navbar -->
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var header = document.getElementById("head-nav");
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+
+</script>
