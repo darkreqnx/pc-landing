@@ -6,20 +6,23 @@ body {
   padding: 0px 10px;
   padding-top: 10px;
   padding-bottom: 0px;
+  margin-bottom: -10px;
 }
 .hero {
   padding: 16px;
 }
 .sticky {
+  z-index: 99;
   position: sticky;
   top: 0;
   width: 100%;
 }
 
 .sticky + .hero {
-  padding-top: 102px;
+  padding-top: 1000px;
 }
 .navbar-inverse {
+  background-color: #000;
   border-radius: 0;
   padding-top: 15px;
   padding-bottom: 15px;
