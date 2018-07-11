@@ -1,0 +1,33 @@
+body {
+      font-family: 'Cabin', serif;
+      /* font-size: 48px; */
+    }
+
+.hero {
+  padding: 16px;
+}
+
+#hero1 {
+  margin-top: 0;
+  padding: 10px 10px;
+  background-color: white;
+}
+#j1 {
+  /* background-image: url('../images/thr3-eyes-173627-unsplash.jpg'); */
+  background-color: #fff;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* opacity: 0.7; */
+  min-height: 700px;
+  border-radius: 0.1px;
+  color: #000;
+  padding-top: 200px;
+}
+
+.btn-default {
+  border-radius: 0;
+  padding: 15px 40px;
+  font-size: 20px;
+  background-color: #e81759;
+  color: white;
+}
